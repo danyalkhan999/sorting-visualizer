@@ -18,6 +18,7 @@ import pause from './helper/pause.js';
 import generator from './helper/generator.js';
 import { ALGORITHM, SPEED, SIZE, SWAP, CURRENT, NORMAL, DONE } from './helper/constants.js';
 import { getKeysCopy } from './helper/keys.js';
+import Footer from './footer.jsx';
 
 
 
@@ -193,7 +194,7 @@ const Visualizer = () => {
                 onChange={onChange}
             />
             <Frame list={list} />
-            {/* <Footer /> */}
+            <Footer />
         </React.Fragment>
     );
 };

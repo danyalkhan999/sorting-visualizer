@@ -22,7 +22,7 @@ footer {
 .link {
   text-decoration: none;
   font-weight: bold;
-  color: #FF5252;
+  color: #0077b6;
 }
 
 /* FRAME STARTS */
@@ -39,7 +39,7 @@ footer {
   resize: horizontal;
   position: relative;
   align-items: flex-start;
-  background-color: #D6D6D6;
+  background-color: #e5e5e5;
   transition: all .4s ease-in;
 }
 .cell.done {
@@ -61,7 +61,7 @@ footer {
   font-size: 16px;
   min-height: 60px;
   text-align: center;
-  background-color: #000;
+  background-color: #000000;
 }
 .navbar .options {
   margin: 10px;
@@ -82,6 +82,8 @@ footer {
   width: 150px;
   height: 25px;
   outline: none;
+  border-radius: 11px;
+  padding: 3px 5px;
 }
 .navbar > .icon {
   display: none;
@@ -98,13 +100,14 @@ button {
   color: #fff;
   cursor: pointer;
   text-transform: uppercase;
-  background-color: #222;
+  background-color: #14213d;
   transition: 0.2s ease-in;
-  border: 2px solid #ccd6f6;
+  border: 1px solid #fca311;
+  border-radius: 15px;
 }
 button:hover {
-  color: #222;
-  background-color: #ccd6f6;
+  color: #14213d;
+  background-color: #fca311;
 }
 @media screen and (max-width: 900px) {
   .navbar button, .navbar .options {
